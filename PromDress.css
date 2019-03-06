@@ -1,0 +1,38 @@
+/*
+* Erin Berger
+* 4 Mar 2019
+* Project Name and Description
+*/
+
+/* The universal selector */
+
+* . {
+
+}
+
+/* Body attributes here */
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: blanchedalmond;
+    font-family: Inherit, Helvetica;
+}
+
+h1 {
+    background-color: white; /*color for background*/
+    color:fuchsia/* color of text*/
+}
+
+p { /* type selector for ALL paragraphs*/
+    color: hotpink
+}
+
+#redText { /* use an id to change text to red */ 
+    color: red;
+}
+
+.greenText { /* use a class to change text to green in different kinds of elements */ 
+    color: green;
+}
+    
